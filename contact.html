@@ -14,7 +14,7 @@
 <main>
 
     <body>
-        <header class="bg-101010">
+        <header class="bg-000000">
             <nav class="contenedormenu ">
                 <div class="logo-container">
                     <a href="index.html">
@@ -23,11 +23,11 @@
                 </div>
                 <div class="navbar">
                     <ul>
-                        <li class="home"><a href="index.html">Home</a></li>
-                        <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
-                        <li class="blog"><a href="blog.html">Blog</a></li>
-                        <li class="about"><a href="about.html">About</a></li>
-                        <li class="contact"><a href="contact.html">Contact</a></li>
+                        <li class="home"><a class="color-white" href="index.html">Home</a></li>
+                    <li class="portfolio"><a class="color-white" href="portfolio.html">Portfolio</a></li>
+                    <li class="blog"><a class="color-white" href="blog.html">Blog</a></li>
+                    <li class="about"><a class="color-white" href="about.html">About</a></li>
+                    <li class="contact"><a class="color-white" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -41,10 +41,10 @@
             </section>
 
 
-            <section id="contact-info">
-                <article class="data-form">
-                    <h2>CONTACT INFO:</h2>
-                    <p>Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu
+            <section id="contact-info" class="bg-161616 flex">
+                <article class="data-form color-white font-oswald">
+                    <h2 class="color-white">CONTACT INFO:</h2>
+                    <p class="color-BOBOBO font-apple">Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu
                         ultrices vel, conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in
                         auctor quam consectetur.</p>
                     <div class="data-contact">
@@ -60,11 +60,11 @@
                 </article>
 
                 <article class="caja-formulario">
-                    <form class="formulario">
-                        <input type="email" name="email" placeholder="Your email" required />
-                        <input type="subject" name="subject" placeholder="Your subject" required />
-                        <input type="message" name="message" placeholder="Your message" required />
-                        <button class="boton-formulario">Send message</button>
+                    <form class="formulario column flex">
+                        <input class="campo-input color-white bg-101010" type="text" name="subject" placeholder="Your subject" required />
+                        <input class="campo-input color-white bg-101010" type="text" name="subject" placeholder="Your subject" required />
+                        <textarea class="campo-input-message color-white bg-101010" name="message" placeholder="Your message" required></textarea>
+                        <input type="submit" value="Send Message" class="boton-formulario bg-FCDA05 color-white"></input>
                     </form>
                 </article>
             </section>
@@ -72,52 +72,46 @@
 
 
         <footer>
-            <section class="footer displayFlex">
-                <div class="footer-data">
-                    <p>2018 © Design by Unvab. Code by nK</p>
-                </div>
+        <section class="footer displayFlex color-515151 bg-010101">
+            <div class="footer-data">
+                <p>2018 © Design by Unvab. Code by nK</p>
+            </div>
 
-                <div class="go-to-top">
-                    <p><a href="contact.html">Go to top</a></p>
-                </div>
+            <div class="go-to-top">
+                <p><a class="color-515151" href="contact.html">Go to top</a></p>
+            </div>
 
-                <article class="iconos-redes">
+            <article class="iconos-redes">
                 <ul>
                     <li class="icono-twitter">
-                        <a href="https://x.com/" target="_blank">
+                        <a class="color-515151" href="https://x.com/" target="_blank">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
                     </li>
                     <li class="icono-facebook">
-                        <a href="https://www.facebook.com/" target="_blank">
+                        <a class="color-515151" href="https://www.facebook.com/" target="_blank">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                     </li>
                     <li class="icono-dribbble">
-                        <a href="https://dribbble.com/" target="_blank">
+                        <a class="color-515151" href="https://dribbble.com/" target="_blank">
                             <i class="fa-brands fa-dribbble"></i>
                         </a>
                     </li>
                     <li class="icono-instagram">
-                        <a href="https://www.instagram.com/" target="_blank">
+                        <a class="color-515151" href="https://www.instagram.com/" target="_blank">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </li>
                     <li class="icono-behance">
-                        <a href="https://www.behance.net/" target="_blank">
+                        <a class="color-515151" href="https://www.behance.net/" target="_blank">
                             <i class="fa-brands fa-behance"></i>
                         </a>
                     </li>
                 </ul>
             </article>
-            </section>
-
-
-            <script src="./assets/js/js.js"></script>
-    </body>
-
-</html>
-</footer>
+        </section>
+    </footer>
 </body>
 
 </html>
